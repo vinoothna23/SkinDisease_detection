@@ -11,7 +11,7 @@ app = Flask(__name__)
 model = joblib.load('cnn_terrain_detection_18_09.pkl')
 
 # Set your OpenAI API key
-openai.api_key = "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"  # Replace with your actual OpenAI API key
+openai.api_key = ""  # Replace with your actual OpenAI API key
 
 # Define a function to preprocess an image
 def preprocess_image(image, target_size):
